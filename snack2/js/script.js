@@ -25,7 +25,7 @@ console.log(opposto (21));
 const list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "qwerty", "asdf", "asdfghjk", "nkoiuyt"]; 
 
   console.log(list) 
-  
+// uniamo con operatore ternario le deu nuove funzioni per newList
   const newList= list.map ((element) => (isNaN(parseInt(element))) ? reverse(element) : opposto(element))
     console.log(newList)
 
